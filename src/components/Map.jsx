@@ -6,8 +6,8 @@ const Map = ({ lat, lng }) => {
     height: "500px",
   };
 
-  const defaultLat = 37.7749; // San Francisco latitude
-  const defaultLng = -122.4194; // San Francisco longitude
+  const defaultLat = 18.5204; // Pune latitude
+  const defaultLng = 73.8567; // Pune longitude
 
   const isValidLatLng = (value) => typeof value === "number" && !isNaN(value);
   const validLat = isValidLatLng(lat) ? lat : defaultLat;
