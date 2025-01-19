@@ -16,9 +16,9 @@ const Map = ({ lat, lng }) => {
   const center = { lat: validLat, lng: validLng };
 
   const onLoad = (map) => {
-    // Ensure the google.maps object is available
+
     if (window.google && window.google.maps) {
-      // You can now use google.maps.marker.AdvancedMarkerElement
+      
     }
   };
 
@@ -30,7 +30,7 @@ const Map = ({ lat, lng }) => {
         zoom={10}
         onLoad={onLoad}
       >
-        {/* Use the standard Marker */}
+        
         <Marker position={center} />
       </GoogleMap>
     </LoadScript>

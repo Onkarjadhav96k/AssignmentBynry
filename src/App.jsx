@@ -10,9 +10,40 @@ const App = () => {
       id: 1,
       name: "Onkar Jadhav",
       description: "Software Engineer",
-      photo: "https://via.placeholder.com/150",
+      photo: "src/assets/My New Photo (1).jpg",
       address: { lat: 18.5204, lng: 73.8567 },
     },
+    {
+      id:2,
+      name:"Ram",
+      description: "Web Developer",
+      photo:"src/assets/rr.jpeg",
+      address:{lat: 17.6612,lng: 75.6697},
+    },
+    {
+      id:3,
+      name:"Sham",
+      description: "React Developer",
+      photo:"src/assets/sham.jpeg",
+      address:{lat: 17.6612,lng: 75.6697},
+
+    },
+    {
+      id:4,
+      name:"Sita",
+      description: "Manual Test Engineer",
+      photo:"src/assets/sita.jpeg",
+      address:{lat: 17.6612,lng: 75.6697},
+
+    },
+    {
+      id:5,
+      name:"Gita",
+      description: "HR",
+      photo:"src/assets/geeta.jpeg",
+      address:{lat: 17.6612,lng: 75.6697},
+
+    }
   ]);
 
   return (
